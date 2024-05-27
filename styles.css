@@ -1,0 +1,60 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #191133;
+  height: 100px;
+}
+
+a:hover {
+  color: gold;
+  transition: 0.3s;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 30px;
+  color: white;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.menu-icon i {
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 23px;
+}
+
+/*Welcome section*/
+.welcome {
+  background: url(img/Dark-Matter-Album-Artwork-Pearl-Jam.jpg);
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
